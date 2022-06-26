@@ -20,4 +20,4 @@ CREATE TABLE "TeamModel" (
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
 ```
-All other necessary queries were generated automatically using 'SQLiteORM' class.
+All other necessary queries were generated automatically using 'SQLiteORM' class (written by me).
