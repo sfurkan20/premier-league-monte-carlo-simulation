@@ -1,0 +1,1 @@
+worker: python plmc_project/main.py
