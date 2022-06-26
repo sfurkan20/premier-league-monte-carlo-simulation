@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <link href="css/index.css" rel="stylesheet">
+
+    <script src="js/index.js"></script>
+
+    <title>Premier League Monte Carlo Simulation</title>
+</head>
+
+<body>
+    <!--[~ for i in range(0, 2) ~]
+    <p>[~ forvar i ~]</p>
+    <p>[~ forvar i ~]</p>
+    [~ endfor ~]-->
+    <div class="league">
+        <table>
+            <caption>Premier League <span>
+                <div>
+                    <select id="weekSelection" onchange="selectWeek()">
+                        <option value="0">Not started</option>
+                    </select>
+                    <br>
+                    <button onclick="advance()">Advance</button>
+                    <button onclick="advanceFinish()">Advance to the Last Week</button>
+                </div>
+            <thead>
+                <tr>
+                    <th><abbr title="Position">Pos</abbr></th>
+                    <th>Club</th>
+                    <th>Played</th>
+                    <th>Won</th>
+                    <th>Drawn</th>
+                    <th>Lost</th>
+                    <th><abbr title="Goals For">GF</abbr></th>
+                    <th><abbr title="Goals Against">GA</abbr></th>
+                    <th><abbr title="Goal Difference">GD</abbr></th>
+                    <th>Points</th>
+                    <th>(Strength)</th>
+                    <th>(Championship Prediction)</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+
+            </tbody>
+        </table>
+    </div>
+    <hr>
+    <div class="match-results">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Home</th>
+                    <th></th>
+                    <th>Away</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="resultsTable-body">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
