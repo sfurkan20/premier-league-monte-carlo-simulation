@@ -205,8 +205,6 @@ function advance() {
         matchIndex++;
     });
 
-    resultsTableElement.innerHTML += `<button>Set Matches</button>`
-
     teamsDataForWeeks.push(teamsDataForCurrentWeek);
     matchRecordsForWeeks.push(matchRecordsForCurrentWeek);
 
